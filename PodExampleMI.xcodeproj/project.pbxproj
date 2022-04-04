@@ -17,6 +17,7 @@
 		B88CDC8E27FAC4850002C640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88CDC8C27FAC4850002C640 /* Main.storyboard */; };
 		B88CDC9027FAC4870002C640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88CDC8F27FAC4870002C640 /* Assets.xcassets */; };
 		B88CDC9327FAC4870002C640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88CDC9127FAC4870002C640 /* LaunchScreen.storyboard */; };
+		B88CDC9927FACBAA0002C640 /* PodExampleMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CDC9827FACBAA0002C640 /* PodExampleMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		B88CDC8F27FAC4870002C640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B88CDC9227FAC4870002C640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B88CDC9427FAC4870002C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88CDC9827FACBAA0002C640 /* PodExampleMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodExampleMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				B88CDC6927FAC0B30002C640 /* PodExampleMI.h */,
 				B88CDC6A27FAC0B30002C640 /* PodExampleMI.docc */,
+				B88CDC9827FACBAA0002C640 /* PodExampleMI.swift */,
 			);
 			path = PodExampleMI;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88CDC9927FACBAA0002C640 /* PodExampleMI.swift in Sources */,
 				B88CDC6B27FAC0B30002C640 /* PodExampleMI.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +499,7 @@
 		B88CDC7E27FAC0B30002C640 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7224G6JACN;
@@ -511,6 +516,7 @@
 		B88CDC7F27FAC0B30002C640 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7224G6JACN;
