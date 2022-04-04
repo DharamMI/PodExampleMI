@@ -18,7 +18,6 @@
 		B88CDC9027FAC4870002C640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88CDC8F27FAC4870002C640 /* Assets.xcassets */; };
 		B88CDC9327FAC4870002C640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88CDC9127FAC4870002C640 /* LaunchScreen.storyboard */; };
 		B88CDC9927FACBAA0002C640 /* PodExampleMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88CDC9827FACBAA0002C640 /* PodExampleMI.swift */; };
-		B88CDC9B27FAE9F70002C640 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B88CDC9A27FAE9F70002C640 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +45,6 @@
 		B88CDC9227FAC4870002C640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B88CDC9427FAC4870002C640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88CDC9827FACBAA0002C640 /* PodExampleMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodExampleMI.swift; sourceTree = "<group>"; };
-		B88CDC9A27FAE9F70002C640 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +99,6 @@
 				B88CDC6927FAC0B30002C640 /* PodExampleMI.h */,
 				B88CDC6A27FAC0B30002C640 /* PodExampleMI.docc */,
 				B88CDC9827FACBAA0002C640 /* PodExampleMI.swift */,
-				B88CDC9A27FAE9F70002C640 /* .travis.yml */,
 			);
 			path = PodExampleMI;
 			sourceTree = "<group>";
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88CDC9B27FAE9F70002C640 /* .travis.yml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
